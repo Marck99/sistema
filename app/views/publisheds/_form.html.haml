@@ -1,0 +1,16 @@
+= form_for @published do |f|
+  - if @published.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@published.errors.count, "error")} prohibited this published from being saved:"
+      %ul
+        - @published.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :origin
+    = f.date_select :origin
+  .actions
+    = f.submit 'Save'

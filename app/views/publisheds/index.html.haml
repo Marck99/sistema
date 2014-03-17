@@ -1,0 +1,21 @@
+%h1 Listing publisheds
+
+%table
+  %tr
+    %th Name
+    %th Origin
+    %th
+    %th
+    %th
+
+  - @publisheds.each do |published|
+    %tr
+      %td= published.name
+      %td= published.origin
+      %td= link_to 'Show', published
+      %td= link_to 'Edit', edit_published_path(published)
+      %td= link_to 'Destroy', published, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Published', new_published_path

@@ -1,0 +1,6 @@
+= form_for([@article, @comentario]) do |f|
+  .field
+    = f.label :content
+    = f.text_area :content
+  .actions
+    = submit_tag 'Save'

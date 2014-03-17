@@ -1,0 +1,38 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @article.title
+%p
+  %b Contenido:
+  = @article.content
+%p
+  %b Publication:
+  = @article.publication
+
+= link_to 'Agregar Comentario', new_article_comment_path(@article)
+
+
+%br
+%br
+%h1 Comentarios
+
+- if @comments.present?
+  
+  %table
+    %tr
+      %th Critica
+
+    - @comments.each do |com|
+      %tr
+        %td= com.content
+
+- else
+  NO HAY COMENTARIOS EN ESTA ENTRADA
+
+%br
+%br
+
+= link_to 'Edit', edit_article_path(@article)
+\|
+= link_to 'Back', articles_path

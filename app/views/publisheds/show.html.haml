@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @published.name
+%p
+  %b Origin:
+  = @published.origin
+
+= link_to 'Edit', edit_published_path(@published)
+\|
+= link_to 'Back', publisheds_path

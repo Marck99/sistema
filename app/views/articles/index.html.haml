@@ -1,0 +1,22 @@
+
+.article_content
+  %h1 Listado de Artículos Publicados
+  %form{:id => "articles_form"}
+
+    - @articles.each do |article|
+      .register
+        %table
+          %tr.head
+            %td.title= article.title
+            %td.publication Fecha: #{article.publication}
+          %tr
+            %td.content{:colspan => 2}= article.content
+          %tr  
+            %td.view= link_to 'Ver comentarios', article
+            %td.admin
+              = link_to 'Editar', edit_article_path(article)
+              = link_to 'Eliminar', article, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'Agregar Artículo', new_article_path

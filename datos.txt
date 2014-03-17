@@ -1,0 +1,31 @@
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index"}
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "format"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "id"=>"531d3e02d54be8bbef000003"}
+PARAMS {"controller"=>"comments", "action"=>"index", "id"=>"531d3e02d54be8bbef000003"}
+ARTICLE #<Article _id: 531d3e02d54be8bbef000003, title: "Neurociencia del Amor", content: "El Dr. Eduardo Calixto, neurofisiólogo del Instituto Nacional de Psiquiatría Ramón de la Fuente, en México, explica que lo que provoca la sensación placentera del enamoramiento es la secreción del neurotransmisor dopamina. La dopamina activa diferentes partes del cerebro para provocar reacciones fisiológicas variadas, como lo serían el aumento de la frecuencia cardiaca o el aumento de la presión arterial. El enamoramiento ocurre cuando la dopamina actúa sobre la corteza prefrontal, asociada a la cognición.", publication: "2014-03-09">
+COMENTARIO #<Comment _id: 531d5d24d54be81afe000004, content: "Comentario", date: 2014-03-10 00:00:00 UTC, article_id: "531d3e02d54be8bbef000003">
+
+PARAMAAASUNO {"action"=>"new", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+PARAMAAASUNO {"action"=>"new", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"HAHAHA"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"KIKO"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART nil
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"LULU"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eaa0ad54be87951000002, content: nil, date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"marce"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eaa5ed54be848db000003, content: nil, date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"UNO DOS TRES"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eaa8ed54be86c4d000004, content: nil, date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"UNO DOS TRES"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eaafbd54be8d919000005, content: nil, date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"UNO DOS TRES"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eab19d54be8d919000006, content: "UNO DOS TRES", date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"UNO DOS TRES"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eab68d54be874f4000007, content: "UNO DOS TRES", date: nil, article_id: nil>
+PARAMAAAS {"utf8"=>"✓", "authenticity_token"=>"vHRPykKrSpfs6xAPYtJJLkF6NSgN1a0+S7l+xiu/UCo=", "comment"=>{"content"=>"MARCELINO"}, "commit"=>"Save", "action"=>"create", "controller"=>"comments", "article_id"=>"531d3e02d54be8bbef000003"}
+ART #<Comment _id: 531eac66d54be8e4d4000008, content: "MARCELINO", date: nil, article_id: "531d3e02d54be8bbef000003">
