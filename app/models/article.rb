@@ -6,7 +6,9 @@ class Article
 
   validates :title, :content, :publication, :presence => { message: "No puede ser vacio" }
 
-  has_many :comments, :dependent => :destroy
+  #has_many :comments, :dependent => :destroy
+  embeds_many :comments
   accepts_nested_attributes_for :comments
+  belongs_to :author
 
 end

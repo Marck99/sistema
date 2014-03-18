@@ -11,3 +11,30 @@
  *= require_self
  *= require_tree .
  */
+ h1.title{
+ 	text-align: center;
+ 	font-size: 	18pt;
+ 	font-family: sans-serif,arial,helvetica;
+ }
+
+ .item_large{
+ 	width: 350px;
+ }
+
+ .input_text input{
+ 	width: 		350px;
+ 	font-size: 	12pt;
+ }
+
+ .area_text textarea{
+ 	width: 	350px;
+ 	height: 93px;
+ 	resize:	none;
+ }
+
+.actions{
+	margin:			auto;
+	text-align:		center;
+	margin-top:		10px;
+	margin-bottom:	10px;
+}

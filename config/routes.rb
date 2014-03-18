@@ -1,8 +1,9 @@
 Sistema::Application.routes.draw do
   
-  get "home/index"
+  resources :authors
 
-  #post 'comments#add_comment_to_article'
+
+  get "home/index"
 
   resources :publisheds
   
@@ -10,8 +11,6 @@ Sistema::Application.routes.draw do
     resources :comments
   end
   
-
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -58,8 +57,6 @@ Sistema::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  
-  get "add_comment/:id" => 'comments#index', :as => :add_comment
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.

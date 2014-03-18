@@ -7,5 +7,7 @@ class Comment
 
   validates :content, :presence => { message: "No se acepta vacio" }
 
-  belongs_to :article
+  #belongs_to :article
+  embedded_in :article, :inverse_of => :comments
+
 end

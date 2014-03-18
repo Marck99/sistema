@@ -4,18 +4,32 @@
   %b Title:
   = @article.title
 %p
+  %b Author:
+  = @article.author.name
+%p
   %b Contenido:
   = @article.content
 %p
   %b Publication:
   = @article.publication
 
-= link_to 'Agregar Comentario', new_article_comment_path(@article)
+/= link_to 'Agregar Comentario', new_article_comment_path(@article)
 
 
 %br
 %br
 %h1 Comentarios
+
+
+= form_for([@article, Comment.new]) do |f|
+  .field
+    = f.label :content
+    = f.text_area :content
+  .actions
+    = submit_tag 'Save'
+
+
+
 
 - if @comments.present?
   

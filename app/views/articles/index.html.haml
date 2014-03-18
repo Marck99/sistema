@@ -1,6 +1,6 @@
 
 .article_content
-  %h1 Listado de Artículos Publicados
+  %h1.title Listado de Artículos Publicados
   %form{:id => "articles_form"}
 
     - @articles.each do |article|
@@ -12,7 +12,9 @@
           %tr
             %td.content{:colspan => 2}= article.content
           %tr  
-            %td.view= link_to 'Ver comentarios', article
+            %td.view
+              = link_to 'Ver comentarios', article
+              = num_comments(article)
             %td.admin
               = link_to 'Editar', edit_article_path(article)
               = link_to 'Eliminar', article, :method => :delete, :data => { :confirm => 'Are you sure?' }

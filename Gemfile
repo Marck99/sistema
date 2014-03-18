@@ -6,6 +6,7 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mongoid', '~> 3.1.5'
+gem 'bson_ext', '~> 1.9.2'
 gem 'pry', '~> 0.9.12.6'
 
 # Gems used only for assets and not required
