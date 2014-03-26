@@ -1,6 +1,7 @@
 
 .article_content
-  %h1.title Listado de Artículos Publicados
+  %h1.title
+    #{I18n.t("titles.articles.index_title")}
   %form{:id => "articles_form"}
 
     - @articles.each do |article|

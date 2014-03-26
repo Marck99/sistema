@@ -4,11 +4,19 @@ class Article
   field :content, type: String
   field :publication, type: String
 
-  validates :title, :content, :publication, :presence => { message: "No puede ser vacio" }
+  attr_accessible :title,
+  				  :content,
+  				  :publication,
+  				  :author_id
 
-  #has_many :comments, :dependent => :destroy
+  validates_presence_of :title,
+  						:content,
+  						:publication,
+  						:author_id
+
   embeds_many :comments
   accepts_nested_attributes_for :comments
+
   belongs_to :author
 
 end

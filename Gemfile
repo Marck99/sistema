@@ -8,6 +8,7 @@ gem 'rails', '3.2.14'
 gem 'mongoid', '~> 3.1.5'
 gem 'bson_ext', '~> 1.9.2'
 gem 'pry', '~> 0.9.12.6'
+gem 'devise', '~> 3.1.1'
 
 # Gems used only for assets and not required
 # in production environments by default.

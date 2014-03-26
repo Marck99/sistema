@@ -4,4 +4,6 @@ class Author
   field :_id, type: String, default: ->{ name }
 
   has_many :articles
+  accepts_nested_attributes_for :articles
+
 end

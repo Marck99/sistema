@@ -11,4 +11,5 @@ module ArticlesHelper
         	form.submit 'Publicar'
         end
 	end
+
 end
